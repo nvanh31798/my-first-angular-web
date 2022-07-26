@@ -1,0 +1,5 @@
+    <ul *ngIf="isShowing" class="flex flex-wrap">
+        <ng-container *ngFor="let singleBook of books">
+            <app-book [book]="singleBook" ></app-book>
+        </ng-container>
+    </ul>

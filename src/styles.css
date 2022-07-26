@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.10');
+    box-shadow: theme('boxShadow.xl');
+    color: theme('colors.black');
+    font-weight: 600;
+    width: 450px;
+    height: 200px;
+    }
+    /* ... */
+}
